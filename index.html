@@ -18,22 +18,29 @@
       <h1>Soft</h1>
       <nav>
         <a href="#">Home</a>
-        <a href="#">About</a>
+        <a href="#about">About</a>
         <div class="dropdown">
-          <a href="#">Prevention <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">Pregnant <i class="fa-solid fa-caret-down"></i></a>
           <div class="dropdown-content">
-            <button>Pregnant</button>
-            <button>Non Pregnant</button>
-            <button>Virgin</button>
+            <a href="pregnantprev.html"><button> Prevention</button></a>
+            <a href="pregnanttreat.html"><button> Treatment</button></a>
+            
+            
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#">Non Pregnant <i class="fa-solid fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="nonPregnantPrev.html"><button> Prevention</button></a>
+            <a href="nonPregnantTreat.html"><button> Treatment</button></a>
           </div>
         </div>
 
         <div class="dropdown">
-          <a href="#">Treatment <i class="fa-solid fa-caret-down"></i></a>
+          <a href="#">Virgin <i class="fa-solid fa-caret-down"></i></a>
           <div class="dropdown-content">
-            <button>Pregnant</button>
-            <button>Non Pregnant</button>
-            <button>Virgin</button>
+            <a href="virginPrev.html"><button> Prevention</button></a>
+            <a href="virginTreat.html"><button> Treatment</button></a>
           </div>
         </div>
       </nav>
@@ -44,26 +51,29 @@
         <div class="container">
           <nav>
             <a href="#">Home</a>
-            <a href="#">About</a>
+            <a href="#about">About</a>
             <div class="dropdown">
-              <a href="#"
-                >Prevention <i class="fa-solid fa-caret-down"></i
-              ></a>
+              <a href="#">Pregnant <i class="fa-solid fa-caret-down"></i></a>
               <div class="dropdown-content">
-                <button>Pregnant</button>
-                <button>Non Pregnant</button>
-                <button>Virgin</button>
+                <a href="pregnantprev.html"><button> Prevention</button></a>
+                <a href="pregnanttreat.html"><button> Treatment</button></a>
+                
+                
               </div>
             </div>
-
             <div class="dropdown">
-              <a href="#"
-                >Treatment <i class="fa-solid fa-caret-down"></i
-              ></a>
+              <a href="#">Non Pregnant <i class="fa-solid fa-caret-down"></i></a>
               <div class="dropdown-content">
-                <button>Pregnant</button>
-                <button>Non Pregnant</button>
-                <button>Virgin</button>
+                <a href="nonPregnantPrev.html"><button> Prevention</button></a>
+                <a href="nonPregnantTreat.html"><button> Treatment</button></a>
+              </div>
+            </div>
+    
+            <div class="dropdown">
+              <a href="#">Virgin <i class="fa-solid fa-caret-down"></i></a>
+              <div class="dropdown-content">
+                <a href="virginPrev.html"><button> Prevention</button></a>
+                <a href="virginTreat.html"><button> Treatment</button></a>
               </div>
             </div>
           </nav>
@@ -71,7 +81,7 @@
       </div>
     </header>
     <section class="Home">
-      <div class="container"> 
+      <div class="container">
         <section class="hero">
           <div class="hero-text">
             <h1><span>Soft Design System.</span><br />Choose the best</h1>
@@ -89,7 +99,7 @@
         </section>
       </div>
     </section>
-       <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="spicialtext">
           <h2>ABOUT US</h2>
@@ -138,23 +148,24 @@
         <div class="card-wrapper">
           <div class="card">
             <img
-              src="assets/cases-slider-img-1.webp"
+              src="assets/cases-slider-img-2.webp"
               alt="Fertility Medication"
             />
 
             <div class="overlay">
-              <button>Prevention</button>
-              <button>Treatment</button>
+             <a href="pregnantprev.html"> <button>Prevention</button></a>
+             <a href="pregnanttreat.html"> <button>Treatment</button></a>
+              
             </div>
 
             <h3>Pregnant</h3>
           </div>
 
           <div class="card">
-            <img src="assets/cases-slider-img-2.webp" alt="Guided Ultrasound" />
+            <img src="assets/cases-slider-img-1.webp" alt="Guided Ultrasound" />
             <div class="overlay">
-              <button>Prevention</button>
-              <button>Treatment</button>
+              <a href="nonPregnantPrev.html"> <button>Prevention</button></a>
+              <a href="nonPregnantTreat.html"> <button>Treatment</button></a>
             </div>
             <h3>Non Pregnant</h3>
           </div>
@@ -162,14 +173,17 @@
           <div class="card">
             <img src="assets/cases-slider-img-3.webp" alt="Infant Activities" />
             <div class="overlay">
-              <button>Prevention</button>
-              <button>Treatment</button>
+              <a href="virginPrev.html"> <button>Prevention</button></a>
+              <a href="virginTreat.html"> <button>Treatment</button></a>
             </div>
             <h3>Virgin</h3>
           </div>
         </div>
       </div>
     </section>
+
+
+
     <button id="backToTop" title="Back to Top">
       <i class="fa-solid fa-chevron-up"></i>
     </button>

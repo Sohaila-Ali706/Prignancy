@@ -45,3 +45,17 @@ backToTopBtn.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
+// accordion
+document.querySelectorAll('.faq-question').forEach(button => {
+  button.addEventListener('click', () => {
+    const currentlyActive = document.querySelector('.faq-question.active');
+    
+    if (currentlyActive && currentlyActive !== button) {
+      currentlyActive.classList.remove('active');
+      currentlyActive.nextElementSibling.classList.remove('open');
+    }
+
+    button.classList.toggle('active');
+    button.nextElementSibling.classList.toggle('open');
+  });
+});
