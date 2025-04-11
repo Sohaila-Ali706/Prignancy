@@ -282,6 +282,7 @@ nav .dropdown:hover .dropdown-content {
 
 /* about Section  */
 .about {
+  margin-top: 55px;
   margin-bottom: 50px;
 }
 .spicialtext h2 {
