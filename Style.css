@@ -308,7 +308,8 @@ nav .dropdown:hover .dropdown-content {
 .aboutText p {
   font-size: 15px;
   margin-bottom: 10px;
-  line-height: 1.6;
+  margin-top: 40px;
+  line-height: 1.8;
 }
 .about .content {
   display: flex;
